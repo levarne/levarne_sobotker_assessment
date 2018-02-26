@@ -1,0 +1,32 @@
+[
+	{
+		"name": "levarne_sobotker",
+		"entries": {
+			"name": "Levarne Sobotker",
+			"phoneNumber": "0814653949"
+		}
+	},
+	{
+		"name": "luke_campbell",
+		"entries": {
+			"name": "Luke Campbell",
+			"phoneNumber": "8332767030"
+		}
+	},
+	{
+		"name": "christine_premelč",
+		"entries": {
+			"name": "Christine Premelč",
+			"phoneNumber": "1112446789",
+			"email": "ChristinePremelc@rhyta.com",
+			"notes": "Met her at a work function."
+		}
+	},
+	{
+		"name": "milan_medvedeva",
+		"entries": {
+			"name": "Milan Medvedeva",
+			"phoneNumber": "5177614088"
+		}
+	}
+]

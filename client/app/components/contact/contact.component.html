@@ -1,0 +1,17 @@
+<div class="form-group">
+        <p><label for="fullName">name: </label> <input id="fullName" class="form-control" type="text" ng-model="vm.fullName"> </p>
+        <p><label for="email">email:</label> <input id="email" class="form-control" type="text" ng-model="vm.email"> </p>
+        <p><label for="phone">phone:</label> <input id="phone" class="form-control" type="text" ng-model="vm.phone"> </p>
+        <p><label for="notes">notes:</label></p>
+        <textarea class="form-control" id="notes" rows="3" ng-model="vm.notes"></textarea>
+</div>
+
+<button ng-if="vm.path !== '/contact/add/'" ng-click="vm.saveContact()" class="btn btn-default">
+    <span class="glyphicon glyphicon-ok"></span>
+    <span> Save Edits</span>
+</button>
+
+<button ng-if="vm.path === '/contact/add/'" ng-click="vm.saveContact()" class="btn btn-default">
+    <span class="glyphicon glyphicon-ok"></span>
+    <span> Add Contact</span>
+</button>
